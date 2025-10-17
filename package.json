@@ -1,18 +1,19 @@
 {
   "name": "ik_scraper",
   "version": "1.0.0",
+  "description": "",
   "main": "ik_scraper.js",
   "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "scripts": {
-    "start": "node ik_scraper.js"
+    "start": "node ik_scraper.js",
+    "postinstall": "npx playwright install"
   },
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
     "playwright": "^1.56.1"
-  },
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
